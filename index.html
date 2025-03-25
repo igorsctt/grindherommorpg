@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles_css/index.css">
+    <link rel="icon" href="./assets/">
+    <title>Grind Hero - MMORPG 2D</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <input class="nav__checkbox" type="checkbox">
+            <div class="nav__lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav__ul">
+                <li>
+                    <img src="./assets/LogoGrindHero.png" height="150" alt="Logo Grind Hero">
+                </li>
+                <li>
+                    <a href="#game" class="nav__link">Game</a>
+                </li>
+                <li>
+                    <a href="#heros" class="nav__link">Heróis</a>
+                </li>
+                <li>
+                    <a href="#equipes" class="nav__link">STAFF</a>
+                </li>
+                <li>
+                    <a href="#sobre" class="nav__link">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="#discord" class="nav__link">DISCORD</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__wrapper-text">
+            <h1 class="header__title">Grind Hero - MMORPG</h1>
+            <h2 class="header__subtitle">
+                Um MMORPG de mundo aberto onde suas escolhas definem o destino. Lute, sobreviva e conquiste a glória!
+            </h2>
+            <a href="./play-game.html" class="btn-cta is-btn-hover">Jogue Agora</a>
+        </div>
+
+       <img class="header__mute js-sound" src="./assets/mute.svg" alt="Imagem do volume do som mutado">
+
+       <video class="header__video" src="./assets/GrindHero.mkv" loop autoplay muted></video>
+    </header>
+    <main class="main">
+        <section id="game" class="section is-bg-game">
+            <div class="section__wrapper-header">
+                <h2 class="section__title">Grind Hero – O Caminho para a Glória!</h2>
+                <p class="section__description">
+                    Grind Hero é um MMORPG de mundo aberto onde a dedicação e estratégia definem os verdadeiros campeões. Com um sistema dinâmico e interativo, os NPCs agem como jogadores reais, tornando cada batalha e decisão únicas.
+                </p>
+            </div>
+            <div class="section__cards">
+                <div class="section__card">
+                    <img src="./assets/screenshot-game/PrintsGH.png" alt="Screenshot do game">
+                    <p class="section__p">
+                        🏹 Explore um vasto mundo – Viaje por terras desconhecidas, enfrente monstros lendários e descubra tesouros escondidos. Aventure-se em masmorras e florestas sombrias, mas lembre-se: a glória é para os corajosos!
+                    </p>
+                    <p class="section__p">
+                        Descubra o Mundo de Grinding Hero!
+                    </p>
+                </div>
+                <div class="section__card">
+                    <img src="./assets/screenshot-game/PrintsGH.png" alt="Screenshot do game">
+                    <p class="section__p">
+                        🪓 Forje suas armas – Combine diferentes equipamentos e descubra criações inéditas. Já pensou em transformar uma lança em um guarda-chuva letal? No Grind Hero, o limite é a sua imaginação!
+                    </p>
+                    <p class="section__p">
+                        Crie Sua Própria Lenda.
+                    </p>
+                </div>
+
+                <div class="section__card">
+                    <img src="./assets/screenshot-game/PrintsGH.png" alt="Screenshot do game">
+                    <p class="section__p">
+                        🏆 Participe de torneios épicos e lute pelo topo do Rank dos Heróis. Os vencedores levam a Taça da Glória e entram para a história!
+                    </p>
+                    <p class="section__p">
+                        Conquiste a Glória
+                    </p>
+                </div>
+
+                <div class="section__card">
+                    <img src="./assets/screenshot-game/PrintsGH.png" alt="Screenshot do game">
+                    <p class="section__p">
+                        🥇 O campeão supremo será eternizado com uma estátua no centro da cidade, sendo lembrado para sempre como uma lenda do Grind Hero.
+                    </p>
+                    <p class="section__p">
+                         O melhor entre os melhores
+                    </p>
+                </div>
+            </div>
+
+            <em class="section__message">
+                Grind Hero é uma cidade onde seus cidadãos vivem em constante batalha para alcançar a glória. Aqui, mérito e força são as únicas moedas de valor – não há espaço para desculpas ou mediocridade. Apenas os verdadeiros guerreiros deixarão sua marca na história!
+            </em>
+        </section>
+        <section id="heros" class="section is-bg-heros">
+            <div class="section__wrapper-header">
+                <h2 class="section__title">Heróis</h2>
+                <p class="section__description">
+                    Escolha o seu HERÓI.
+                </p>
+            </div>
+            <div class="section__wrapper-list">
+                <ul class="section__ul js-list">
+                    <li class="section__avatar is-cowboy">
+                        <p class="section__li-p">KNIGHT</p>
+                    </li>
+                    <li class="section__avatar is-lanceiro">
+                        <p class="section__li-p">WIZARD</p>
+                    </li>
+                    <li class="section__avatar is-capitan">
+                        <p class="section__li-p">HEALER</p>
+                    </li>
+                    <li class="section__avatar is-lutador">
+                        <p class="section__li-p">PALADIN</p>
+                    </li>
+                    <li class="section__avatar is-atirador">
+                        <p class="section__li-p">ROGUE</p>
+                    </li>
+                    <li class="section__avatar is-cavaleiro">
+                        <p class="section__li-p">SORCERER</p>
+                    </li>
+                </ul>
+                <img class="section__arrow is-arrow-left" src="./assets/arrow-left.svg" alt="Imagem de uma seta apontada para a esquerda">
+                <img class="section__arrow is-arrow-right" src="./assets/arrow-right.svg" alt="Imagem de uma seta apontada para a direita">
+            </div>
+        </section>
+        <section id="equipes" class="section is-bg-equipes">
+            <div class="section__wrapper-header">
+                <h2 class="section__title">STAFF</h2>
+                <p class="section__description">
+                    Escolha a sua equipe, mas escolha bem porquê as competições que você participar na vitória ou derrota os pontos serão divididos entre sua equipe. 
+                </p>
+            </div>
+            <div class="section__wrapper-list section__equipes">
+                <div class="section__card-team">
+                    <img class="img" src="./assets/equipes/PrintsGH.png" alt="Imagem da equipe">
+                </div>
+                <div class="section__card-team">
+                    <img class="img" src="./assets/equipes/PrintsGH.png" alt="Imagem da equipe">
+                </div>
+                <div class="section__card-team">
+                    <img class="img" src="./assets/equipes/PrintsGH.png" alt="Imagem da equipe">
+                </div>
+                <div class="section__card-team">
+                    <img class="img" src="./assets/equipes/PrintsGH.png" alt="Imagem da equipe">
+                </div>
+                <div class="section__card-team">
+                    <img class="img" src="./assets/equipes/PrintsGH.png" alt="Imagem da equipe">
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="section is-bg-sobre">
+            <div class="section__wrapper-header section__sobre">
+                <h2 class="section__title">Sobre Nós</h2>
+                <p class="section__description">
+                    Por trás do Grind Hero está um verdadeiro apaixonado por games! Desde os 17 anos, nosso ADM se dedica ao desenvolvimento de jogos, acumulando quase duas décadas de experiência na criação de mundos imersivos e sistemas inovadores.
+                </p>
+                <p class="section__description">
+                    Ao longo dessa jornada, ele já lançou dois outros MMORPGs, mas seu foco agora está 100% no Grind Hero – um projeto único, feito com atenção aos detalhes e pensando na melhor experiência para os jogadores. Diferente de tudo que já foi feito, Grind Hero nasceu para revolucionar o gênero, trazendo um sistema dinâmico, competitivo e cheio de possibilidades.
+                </p>
+                <p class="section__description">
+                    Aqui, cada jogador escreve sua própria história e luta para conquistar seu lugar entre os melhores. O Grind Hero não é apenas um jogo – é um legado em construção. E você, está pronto para entrar nessa aventura?
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <img class="footer__logo" src="./assets/LogoGrindHero.png" alt="Logo Gind Hero">
+        <div class="footer__wrapper">
+            <div class="footer__img">
+                <img src="./assets/play-store.svg" alt="Imagem da Play Store">
+                <img src="./assets/app-store.svg" alt="Imagem da Apple Store">
+                <img src="./assets/steam.svg" alt="Imagem Windows">
+            </div>
+            <p class="footer__copywrite">© 2025 Extreaming, Inc. Todos os direitos reservados. Grind Hero.</p>
+            <div class="footer__information">
+                <strong>Aviso de Privacidade</strong>
+                <strong>Termos de Uso</strong>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./video.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
